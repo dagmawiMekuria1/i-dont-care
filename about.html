@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - AfterBots</title>
+  <meta name="description" content="Learn about the AfterBots project and the team behind the bots.">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo">
+        <svg class="header__logo-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="4" y="12" width="24" height="16" rx="3"/>
+          <circle cx="11" cy="20" r="2"/>
+          <circle cx="21" cy="20" r="2"/>
+          <path d="M16 4v8M12 8h8"/>
+        </svg>
+        <span class="header__logo-text">AfterBots</span>
+      </a>
+
+      <button class="header__menu-toggle btn--icon" data-action="toggle-menu" aria-label="Toggle menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="dashboard.html" class="nav__link">Dashboard</a></li>
+          <li class="nav__item"><a href="playground.html" class="nav__link">Playground</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+        </ul>
+      </nav>
+
+      <button class="theme-toggle btn--icon" data-action="toggle-theme" aria-label="Toggle theme">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="5"/>
+          <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- About Hero -->
+  <section class="page-header section">
+    <div class="container">
+      <h1 class="page-header__title" data-animate="fade-up">About AfterBots</h1>
+      <p class="page-header__subtitle" data-animate="fade-up">The story behind the bots that never sleep (mostly).</p>
+    </div>
+  </section>
+
+  <!-- About Content -->
+  <section class="section">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-content__text" data-animate="fade-up">
+          <h2>Our Story</h2>
+          <p>AfterBots started as a simple idea: what if the helpful little programs we interact with every day had personalities of their own? What if, after the workday ended and the screens went dark, they came alive?</p>
+          <p>We built AfterBots as a playful exploration of human-computer interaction. Each bot in our crew has a distinct personality, role, and way of communicating. From Pixel the designer to Bolt the optimizer, they work together to create something greater than the sum of their parts.</p>
+          <p>This project is a static site built with pure HTML, CSS, and JavaScript -- no frameworks, no build steps, just clean code and creative spirit. It serves as both a demo and a love letter to the joy of building things on the web.</p>
+        </div>
+
+        <div class="about-content__values" data-animate="fade-up">
+          <h2>What We Believe</h2>
+          <div class="values-grid">
+            <div class="card value-card">
+              <h3 class="value-card__title">Simplicity</h3>
+              <p class="value-card__desc">Great things do not need complex toolchains. Sometimes HTML, CSS, and JS are all you need.</p>
+            </div>
+            <div class="card value-card">
+              <h3 class="value-card__title">Personality</h3>
+              <p class="value-card__desc">Technology should feel human. Our bots have character because we believe interfaces should too.</p>
+            </div>
+            <div class="card value-card">
+              <h3 class="value-card__title">Accessibility</h3>
+              <p class="value-card__desc">The web is for everyone. We build with semantic HTML, ARIA labels, and keyboard navigation in mind.</p>
+            </div>
+            <div class="card value-card">
+              <h3 class="value-card__title">Fun</h3>
+              <p class="value-card__desc">If you are not having fun building it, why bother? AfterBots is a celebration of creative coding.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content__team" data-animate="fade-up">
+          <h2>Meet the Crew</h2>
+          <p>Our bots each bring something unique to the table:</p>
+          <ul class="team-list">
+            <li><strong>Pixel</strong> -- The Design Bot. Pixel has an eye for aesthetics and generates icons, layouts, and color schemes.</li>
+            <li><strong>Logic</strong> -- The Code Bot. Logic reviews code, optimizes algorithms, and never misses a semicolon.</li>
+            <li><strong>Muse</strong> -- The Creative Bot. Muse drafts stories, brainstorms ideas, and writes poetry (sometimes).</li>
+            <li><strong>Scout</strong> -- The Research Bot. Scout scours data, summarizes findings, and stays on top of trends.</li>
+            <li><strong>Zen</strong> -- The Wellness Bot. Zen sends reminders to stretch, hydrate, and take breaks.</li>
+            <li><strong>Bolt</strong> -- The Speed Bot. Bolt optimizes everything for performance. Fastest bot in the crew.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta section section--alt">
+    <div class="container cta__inner" data-animate="fade-up">
+      <h2 class="cta__title">Want to Chat with a Bot?</h2>
+      <p class="cta__desc">Head to the playground and start a conversation. Our bots are always ready to talk.</p>
+      <div class="cta__actions">
+        <a href="playground.html" class="btn btn--primary">Open Playground</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo">AfterBots</span>
+        <p class="footer__tagline">Where bots come alive after hours.</p>
+      </div>
+      <nav class="footer__nav">
+        <a href="index.html" class="footer__link">Home</a>
+        <a href="dashboard.html" class="footer__link">Dashboard</a>
+        <a href="playground.html" class="footer__link">Playground</a>
+        <a href="about.html" class="footer__link">About</a>
+      </nav>
+      <p class="footer__copy">&copy; 2024 AfterBots. Built with heart and a few circuits.</p>
+    </div>
+  </footer>
+
+  <script src="assets/site.js"></script>
+</body>
+</html>
